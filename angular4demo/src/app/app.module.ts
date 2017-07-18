@@ -19,4 +19,5 @@ import { SimpleComponentComponent } from './simple-component/simple-component.co
   ],
   bootstrap: [AppComponent]
 })
+
 export class AppModule { }
