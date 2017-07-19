@@ -1,5 +1,4 @@
-import {Component, OnInit} from '@angular/core';
-import {Router} from "@angular/router";
+import {Component} from '@angular/core';
 
 @Component({
   selector: 'app-tabs',
@@ -7,7 +6,8 @@ import {Router} from "@angular/router";
   styleUrls: ['./tabs.component.scss']
 })
 export class TabsComponent {
-  public navLinks = ['simpleComponent','L2','L3','L4'];
-  constructor(private router: Router) {
+  public navLinks = ['simpleComponent','L2','L3','hotelLists'];
+  constructor() {
   }
+
 }

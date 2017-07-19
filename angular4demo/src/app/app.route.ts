@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import {TabsComponent} from "./tabs/tabs.component";
 import {PageNotFoundComponent} from "./page-not-found/page-not-found.component";
 import {SimpleComponentComponent} from './simple-component/simple-component.component';
+import {HotelsListComponent} from "./hotels-list/hotels-list.component";
 
 // Route Configuration
 export const routes: Routes = [
@@ -10,6 +11,7 @@ export const routes: Routes = [
   { path: 'home', component: TabsComponent,
     children: [
       { path: 'simpleComponent', component: SimpleComponentComponent },
+      { path: 'hotelLists', component: HotelsListComponent },
     ]
   },
   { path: '**', component: PageNotFoundComponent}
