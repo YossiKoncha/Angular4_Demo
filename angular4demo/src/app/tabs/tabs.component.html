@@ -1,0 +1,11 @@
+<nav md-tab-nav-bar>
+  <a md-tab-link
+     *ngFor="let link of navLinks"
+     [routerLink]="link">
+    {{link}}
+  </a>
+</nav>
+
+<router-outlet></router-outlet>
+
+

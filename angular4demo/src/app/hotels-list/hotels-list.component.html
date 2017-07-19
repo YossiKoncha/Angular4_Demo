@@ -1,0 +1,10 @@
+<button class="get-hotels-btn" md-button (click)="getHotels()">get hotels</button>
+
+<div class="hotels-list-container">
+  <div *ngFor="let hotel of hotelsList">
+    <div class="hotel-wrapper">
+      <div class="hotel-name">{{hotel.name}}</div>
+      <img width="300px" hieght="300px" [src]="hotel.images[0].url">
+    </div>
+  </div>
+</div>
