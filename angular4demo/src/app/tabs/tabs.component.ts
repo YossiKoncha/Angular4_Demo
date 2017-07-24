@@ -1,4 +1,4 @@
-import {Component} from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-tabs',
@@ -6,7 +6,7 @@ import {Component} from '@angular/core';
   styleUrls: ['./tabs.component.scss']
 })
 export class TabsComponent {
-  public navLinks = ['simpleComponent','L2','L3','hotelLists'];
+  public navLinks = ['getStarted', 'simpleComponent', 'basicOperations', 'ngForLoop', 'hotelLists'];
   constructor() {
   }
 

@@ -1,0 +1,24 @@
+<br>
+<md-input-container>
+  <input mdInput type="text" placeholder="Hotel Name" #change>
+</md-input-container>
+<button md-raised-button (click)="addHotelName(change.value)">Add</button>
+<h2>Hotels Name:</h2>
+
+<h3>
+  <u>All Items:</u>
+</h3>
+<ul *ngFor="let hotelName of hotelsName; let i=index">
+  <li>{{i+1}}) {{hotelName}}</li>
+</ul>
+
+<br>
+<h3>
+  <u>Odd Items (ngIf):</u>
+</h3>
+<ul *ngFor="let hotelName of hotelsName; let i=index">
+  <li *ngIf="i%2===0">{{i+1}}) {{hotelName}}</li>
+</ul>
+
+
+

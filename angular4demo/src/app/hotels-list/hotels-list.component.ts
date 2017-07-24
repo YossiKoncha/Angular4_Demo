@@ -1,8 +1,8 @@
 import {Component, OnInit} from '@angular/core';
-import {HttpClient} from "@angular/common/http";
-import "rxjs/add/operator/pluck";
-import "rxjs/add/operator/map";
-import "rxjs/add/operator/filter";
+import {HttpClient} from '@angular/common/http';
+import 'rxjs/add/operator/pluck';
+import 'rxjs/add/operator/map';
+import 'rxjs/add/operator/filter';
 import 'rxjs/add/operator/switchMap';
 import 'rxjs/add/observable/of';
 
