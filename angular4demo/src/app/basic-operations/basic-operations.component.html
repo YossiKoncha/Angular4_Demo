@@ -1,0 +1,38 @@
+<h3>
+  <u>Input + ngModel</u>
+</h3>
+<md-input-container>
+  <input mdInput type="text" placeholder="Hotel Name" [(ngModel)]="hotelNameModel">
+</md-input-container>
+<br>
+<md-card class="sizeCard">
+ <i>Result:</i> <b>{{hotelNameModel}}</b>
+</md-card>
+
+<br>
+<br>
+<h3>
+  <u>Input + ngModel + Function</u>
+</h3>
+<md-input-container>
+  <input mdInput type="text" placeholder="Hotel Name" [(ngModel)]="hotelNameClickModel">
+</md-input-container>
+<button md-raised-button (click)="hotelNameClick(hotelNameClickModel)">Show</button>
+<br>
+<md-card class="sizeCard">
+  <i>Result:</i> <b>{{hotelNameShow}}</b>
+</md-card>
+
+<br>
+<br>
+<h3>
+  <u>Input + Template + Function</u>
+</h3>
+<md-input-container>
+  <input mdInput type="text" placeholder="Hotel Name" #change>
+</md-input-container>
+<button md-raised-button (click)="hotelNameChange(change.value)">Show</button>
+<br>
+<md-card class="sizeCard">
+ <i>Result:</i> <b>{{hotelNameTemplate}}</b>
+</md-card>
