@@ -1,38 +1,45 @@
-.get-hotels-btn{
-  background-color: #8686e8;
-  position: relative;
-  margin-top: 30px;
-  left: calc(50% - 500px);
-}
-
-.hotels-list-container{
-  overflow-y: scroll;
+.hotels-list-wrapper {
   width: 900px;
-  height: 900px;
-  background-color: white;
-  margin: 30px auto 0 auto;
-  border: 1px solid #ececec;
-  border-radius: 10px;
-  box-shadow: 0 0 17px -1px rgba(0, 0, 0, 0.1);
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  padding-top: 40px;
+  margin: 0 auto;
 
-  .hotel-wrapper{
-    width: 300px;
-    height: 300px;
+  .get-hotels-btn {
+    background-color: #8686e8;
+    position: relative;
+    margin-top: 30px;
+    font-size: 22px;
+    padding: 8px;
+    color: white;
+  }
 
-    .hotel-name{
-      font-size: 24px;
-      color:blue;
-      font-family: Lato Regular;
-      background-color: rgba(0, 0, 0, 0.1);
-      text-align: center;
-    }
+  .hotels-list-container {
+    overflow-y: auto;
+    width: 900px;
+    height: 700px;
+    background-color: white;
+    margin-top: 30px;
+    border: 1px solid #ececec;
+    border-radius: 10px;
+    box-shadow: 0 0 17px -1px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 40px;
 
-    img{
-      margin: 0 auto;
+    .hotel-wrapper {
+      width: 300px;
+      height: 300px;
+
+      .hotel-name {
+        font-size: 24px;
+        color: blue;
+        font-family: Lato Regular;
+        background-color: rgba(0, 0, 0, 0.1);
+        text-align: center;
+      }
+
+      img {
+        margin: 0 auto;
+      }
     }
   }
 }
