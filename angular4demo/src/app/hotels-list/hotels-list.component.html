@@ -4,6 +4,7 @@
   <div class="hotels-list-container">
     <div *ngFor="let hotel of hotelsList" class="hotel-wrapper">
       <div class="hotel-name">{{hotel.name}}</div>
+      <div class="hotel-name">{{hotel.address.city}}</div>
       <img width="300px" hieght="300px" [src]="hotel.images[0].url">
     </div>
   </div>
