@@ -6,7 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./simple-component.component.scss']
 })
 export class SimpleComponentComponent implements OnInit {
-  private myName = 'mySimpleComponent';
+
+  public myName = 'my Simple Component';
+
   constructor() { }
 
   ngOnInit() {
