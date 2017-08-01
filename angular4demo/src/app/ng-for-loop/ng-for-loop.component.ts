@@ -8,6 +8,7 @@ import { NgModel } from '@angular/forms';
   styleUrls: ['./ng-for-loop.component.scss']
 })
 export class NgForLoopComponent implements OnInit {
+  hotelNameClickModel: string;
   hotelsName: any[];
 
   constructor() { }

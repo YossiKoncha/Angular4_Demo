@@ -10,7 +10,6 @@ export class BasicOperationsComponent implements OnInit {
   hotelNameClickModel: string;
 
   hotelNameShow: string;
-  hotelNameTemplate: string;
 
   constructor() {}
 
@@ -18,10 +17,6 @@ export class BasicOperationsComponent implements OnInit {
   }
 
   hotelNameClick(hotelName: string) {
-    this.hotelNameShow = hotelName;
-  }
-
-  hotelNameChange(hotelName) {
-    this.hotelNameTemplate = hotelName;
+    this.hotelNameShow = hotelName + ' :)';
   }
 }
