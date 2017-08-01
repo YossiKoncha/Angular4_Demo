@@ -18,6 +18,12 @@ export class HotelsListComponent {
   constructor(private http: HttpClient) {
   }
 
+  public getHotels() {
+  this.http.get(this.hotelsUrl).subscribe((hotels: any) => {
+    this.hotelsList = hotels;
+  })
+}
+
 }
 
 
@@ -35,11 +41,6 @@ export class HotelsListComponent {
 
 
 
-// public getHotels() {
-//   this.http.get(this.hotelsUrl).subscribe((hotels: any) => {
-//     this.hotelsList = hotels;
-//   })
-// }
 
 
 
