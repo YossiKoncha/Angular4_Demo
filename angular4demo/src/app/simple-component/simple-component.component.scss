@@ -1,6 +1,23 @@
-p{
+p {
   font-size: 40px;
   color: #003780;
   text-align: center;
   margin-top: 200px;
 }
+
+.show-text-wrapper {
+  width: 100px;
+  margin: 200px auto 0 auto;
+
+  button {
+    margin: 0 auto;
+  }
+
+  .text-to-show {
+    text-align: center;
+    font-size: 25px;
+    color: #003780;
+    margin-top: 20px;
+  }
+}
+
