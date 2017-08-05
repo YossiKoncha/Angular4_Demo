@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SimpleComponentComponent implements OnInit {
 
-  public myName = 'my Simple Component ';
+  public title = 'my Simple Component ';
 
   constructor() { }
 
