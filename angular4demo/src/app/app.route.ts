@@ -7,6 +7,7 @@ import { HotelsListComponent } from './hotels-list/hotels-list.component';
 import { NgForLoopComponent } from './ng-for-loop/ng-for-loop.component';
 import { BasicOperationsComponent } from './basic-operations/basic-operations.component';
 import { GetStatedComponent } from './get-stated/get-stated.component';
+import {TheEndComponent} from "./the-end/the-end.component";
 
 // Route Configuration
 export const routes: Routes = [
@@ -19,6 +20,7 @@ export const routes: Routes = [
       { path: 'basicOperations', component: BasicOperationsComponent },
       { path: 'ngForLoop', component: NgForLoopComponent },
       { path: 'hotelLists', component: HotelsListComponent },
+      { path: 'theEnd', component: TheEndComponent },
     ]
   },
   { path: '**', component: PageNotFoundComponent }

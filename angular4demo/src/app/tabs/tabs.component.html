@@ -1,8 +1,8 @@
 <nav md-tab-nav-bar>
   <a md-tab-link
-     *ngFor="let link of navLinks"
+     *ngFor="let link of navLinks; let i=index"
      [routerLink]="link">
-    {{link}}
+    {{navTitles[i]}}
   </a>
   <img src="../../assets/tgs-logo.png"/>
 </nav>

@@ -14,6 +14,7 @@ import { HotelsListComponent } from './hotels-list/hotels-list.component';
 import { NgForLoopComponent } from './ng-for-loop/ng-for-loop.component';
 import { BasicOperationsComponent } from './basic-operations/basic-operations.component';
 import { GetStatedComponent } from './get-stated/get-stated.component';
+import { TheEndComponent } from './the-end/the-end.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { GetStatedComponent } from './get-stated/get-stated.component';
     HotelsListComponent,
     NgForLoopComponent,
     BasicOperationsComponent,
-    GetStatedComponent
+    GetStatedComponent,
+    TheEndComponent
   ],
   imports: [
     BrowserModule,

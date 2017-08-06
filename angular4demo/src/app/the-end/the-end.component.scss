@@ -1,0 +1,16 @@
+.the-end-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+
+  .title{
+    font-size: 45px;
+    color: #2c10ff;
+    margin-bottom: 40px;
+  }
+
+  video{
+    width: 1000px;
+  }
+}
