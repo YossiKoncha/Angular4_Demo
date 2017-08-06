@@ -12,9 +12,8 @@ export class SimpleComponentComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    setTimeout( ( )=> {
-      this.title ='this is me after timeout'
-    },4000);
+    // setTimeout( ( )=> {
+    //   this.title ='this is me after timeout'
+    // },3000);
   }
-
 }

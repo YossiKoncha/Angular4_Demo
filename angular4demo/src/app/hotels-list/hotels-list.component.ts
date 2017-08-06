@@ -15,7 +15,6 @@ export class HotelsListComponent {
   public hotelsList = [];
   private hotelsUrl = 'https://api.myjson.com/bins/v4o9d';
 
-
   constructor(private http: HttpClient) {
   }
 
