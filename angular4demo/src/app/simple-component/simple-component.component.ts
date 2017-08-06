@@ -13,8 +13,8 @@ export class SimpleComponentComponent implements OnInit {
 
   ngOnInit() {
     setTimeout( ( )=> {
-      this.myName ='this is me after timeout'
-    },3000);
+      this.title ='this is me after timeout'
+    },4000);
   }
 
 }
