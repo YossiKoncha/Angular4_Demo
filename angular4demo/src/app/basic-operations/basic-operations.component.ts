@@ -7,8 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BasicOperationsComponent implements OnInit {
   hotelNameModel: string;
-  hotelNameClickModel: string;
 
+  hotelNameClickModel: string;
   hotelNameShow: string;
 
   constructor() {}

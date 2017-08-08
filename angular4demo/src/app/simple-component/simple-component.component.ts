@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class SimpleComponentComponent implements OnInit {
 
   public title = 'my Simple Component ';
+  public showMe = false;
 
   constructor() { }
 

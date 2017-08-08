@@ -13,7 +13,7 @@ import 'rxjs/add/observable/of';
 })
 export class HotelsListComponent {
   public hotelsList = [];
-  private hotelsUrl = 'https://api.myjson.com/bins/v4o9d';
+  private hotelsUrl = 'https://api.myjson.com/bins/niub9';
 
   constructor(private http: HttpClient) {
   }
